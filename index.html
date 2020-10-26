@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+    <meta charset="utf-8">
+    <head>
+        <title>BBC Week Calculator</title>
+    </head>
+
+    <link rel="stylesheet" href="style.css">
+
+    <body>
+        <h1>BBC Week Calculator</h1>
+        <div id="form">
+            <h2>What year was this date in?</h2>
+            <input class="textinput" type="text" name="date" id="date" placeholder="2018-01-01" />
+            <button class="go" id="go">Go</button>
+        </div>
+
+        <div id="form">
+                <h2>When did this BBC year start?</h2>
+                <input class="textinput" type="text" name="year" id="year" placeholder="2018" />
+                <button class="go" id="go-year">Go</button>
+            </div>
+        <div id="output"></div>
+        <script src="moment.js"></script>
+        <script src="index.js"></script>
+    </body>
+</html>

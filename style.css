@@ -1,0 +1,36 @@
+body {
+    width: 80%;
+    max-width: 800px;
+    margin: 10px auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+.error {
+    color: red;
+}
+
+#form {
+    text-align: center;
+}
+
+.textinput {
+    font-size: 48px;
+}
+
+.go {
+    font-size: 36px;
+    color: white;
+    background-color: #337ab7;
+    border-color: white;
+    border: 0px;
+    border-radius: 4px;
+}
+
+#output {
+    text-align: left;
+    margin-top: 25px;    
+}
